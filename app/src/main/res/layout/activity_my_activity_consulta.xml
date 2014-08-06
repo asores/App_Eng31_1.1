@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@android:color/darker_gray"
+    tools:context="com.app.locksala1.app_eng31_11.MyActivity_home">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="ID"
+        android:textColorHint="#777"
+        android:ems="10"
+        android:textColor="#222"
+        android:id="@+id/id"
+        android:layout_above="@+id/user"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="49dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="USER"
+        android:textColorHint="#777"
+        android:ems="10"
+        android:textColor="#222"
+        android:id="@+id/user"
+        android:layout_above="@+id/pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="46dp">
+        <requestFocus/>
+    </TextView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pass"
+        android:textColor="#222"
+        android:hint="Senha"
+        android:textColorHint="#777"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:id="@+id/next"
+        android:textSize="12dp"
+        android:background="@drawable/a"
+        android:onClick="clickNext"
+        android:height="15dp"
+        android:layout_toEndOf="@+id/previus"
+        android:layout_alignTop="@+id/previus"
+        android:layout_toRightOf="@+id/previus"
+        android:layout_marginLeft="36dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:textSize="12dp"
+        android:height="15dp"
+        android:id="@+id/previus"
+        android:onClick="clickPrevius"
+        android:background="@drawable/a"
+        android:layout_marginTop="53dp"
+        android:layout_marginLeft="89dp"
+        android:layout_below="@+id/pass"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

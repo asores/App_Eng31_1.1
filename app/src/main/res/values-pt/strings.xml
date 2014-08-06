@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lock _ Eng31</string>
+    <string name="hello_world">Ola Alex Soares!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_exit">Sair</string>
+    <string name="usuario">Usuario</string>
+    <string name="senha">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="Logado">Logado</string>
+    <string name="OK">Ok</string>
+    <string name="btnInsert">Inserir Amigos</string>
+    <string name="btnLoading">Consultar Amigos</string>
+    <string name="btnContacts">Contatos</string>
+    <string name="btnObra">Obras</string>
+    <string name="testeaba">LOCK</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+    <string name="menu1">Menu</string>
+    <string name="menu_agenda">Menu Agenda</string>
+    <string name="menu_info_details">Detalhes</string>
+    <string name="menu_friendlist">Minha Lista</string>
+
+    <!-- Menus da Lista Lateral esquerda -->
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Receber Inspeções</string>
+    <string name="title_section3">Enviar Inspeções</string>
+    <string name="title_section4">Inspecionar Obra</string>
+    <string name="title_section5">Consulta</string>
+    <string name="title_section6">Receber</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+
+    !-- Content Description -->
+    <string name="desc_list_item_icon">Item Icone</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_my_activity_teste">MyActivity_teste</string>
+    <string name="navigation_drawer_open">Aberta Navegação</string>
+    <string name="navigation_drawer_close">Fechada Navegação</string>
+    <string name="action_example">Ação do Exemplo</string>
+</resources>

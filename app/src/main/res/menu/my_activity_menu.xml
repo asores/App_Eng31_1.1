@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.locksala1.app_eng31_11.MyActivity_teste1">
+        <item   android:icon="@android:drawable/arrow_down_float"
+                android:showAsAction="always"
+                android:title="@string/app_name">
+
+                <menu>
+
+                <item android:id="@+id/action_settings"
+                    android:title="@string/action_settings"
+                    android:orderInCategory="100"
+                    android:showAsAction="never"
+                    android:icon="@android:drawable/ic_menu_manage"
+                    />
+
+                <item android:id="@+id/action_exit"
+                    android:title="@string/action_exit"
+                    android:orderInCategory="100"
+                    android:showAsAction="never"
+                    android:onClick="clickExit"
+                    android:icon="@android:drawable/ic_lock_idle_lock"
+                    />
+            </menu>
+        </item>
+</menu>

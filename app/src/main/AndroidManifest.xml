@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.locksala1.app_eng31_11" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_stat_name"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Wallpaper" >
+
+        <!-- Tela de abertura SPLASH -->
+        <activity
+            android:name=".MyActivity"
+            android:icon="@drawable/ic_stat_name"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Fim Tela de Abertura -->
+
+
+        <!-- Tela de Login -->
+        <activity
+            android:name=".MyActivity_login"
+            android:icon="@android:color/transparent"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+        </activity>
+        <!-- Fim da Tela de Login -->
+
+
+        <!-- Tela HOME - MENU Lateral -->
+        <activity
+            android:name=".MyActivity_home"
+            android:icon="@android:color/transparent"
+            android:label="@string/title_section1" >
+
+            <!-- android:label="@string/title_activity_my_activity_teste"> -->
+        </activity>
+        <!-- Fim da Tela Home -->
+
+
+        <!-- Tela de RECEBER INSPEÇÃO -->
+        <activity
+            android:name=".MyActivity_consulta"
+            android:icon="@android:color/transparent"
+            android:label="@string/title_section5"
+            android:parentActivityName=".MyActivity_home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MyActivity_menu" />
+        </activity>
+        <!-- Fim da Tela de RECEBER INSPEÇÃO -->
+
+
+        <!-- Tela de ENVIAR INSPEÇAO -->
+        <activity
+            android:name=".MyActivity_teste1"
+            android:icon="@android:color/transparent"
+            android:label="Menu"
+            android:parentActivityName=".MyActivity_home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MyActivity_menu" />
+        </activity>
+        <!-- Fim da Tela de ENVIAR INSPEÇAO -->
+
+
+        <!-- Tela de ENVIAR INSPEÇÃO -->
+        <activity
+            android:name=".MyActivity_formulariocad"
+            android:icon="@android:color/transparent"
+            android:label="@string/title_section3"
+            android:parentActivityName=".MyActivity_home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MyActivity_menu" />
+        </activity>
+        <!-- Fim da Tela de ENVIAR INSPEÇÃO -->
+
+    </application>
+
+</manifest>
